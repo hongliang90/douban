@@ -138,7 +138,6 @@ input::placeholder {
     float: right;
     height: 304px;
     width: 180px;
-    background-color: orange;
 }
 
 
@@ -163,10 +162,9 @@ input::placeholder {
 
 .downloadArea .qr{
     display: inline-block;
-    background-color:aqua ;
     margin-top: 30px;
-    width: 29px;
-    height: 29px;
+    vertical-align:top;
+    position: relative;
 }
 
 
@@ -175,6 +173,21 @@ input::placeholder {
     /* float: left; */
     width: 29px;
     height: 29px;
-    position: relative;
+    cursor: pointer;
 }
 
+.samlQr:hover + .bigQr{
+   display: block;
+}
+
+.downloadArea .bigQr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background-image: url(../image/qrcode.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+}
