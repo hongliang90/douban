@@ -138,3 +138,16 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* é‡ç½®æ–‡æœ¬æ¡† */
+input,button{
+    border: none;
+    outline: none;
+    outline-offset: 0;
+}
+
+/* é‡ç½®æŒ‰é’® */
+button{
+    background: initial;
+    padding: 0;
+}
