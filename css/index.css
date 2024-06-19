@@ -1,0 +1,57 @@
+@import "../css/reset.css";
+@import "../css/common.css";
+
+.header {
+    padding-top: 30px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+.clearfix ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.logo{
+    font-size: 0px;
+}
+
+
+.logo h1 a {
+    display: block;
+    width: 154px;
+    height: 30px;
+    background: url("../img/logo_db.png") no-repeat left top/100%;
+}
+
+.search {
+    margin-left: 20px;
+}
+
+.search .text {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #c3c3c3;
+}
+
+.search input::placeholder {
+    font-size: 13px;
+    color: #c1c1c1;
+}
